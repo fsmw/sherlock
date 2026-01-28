@@ -51,7 +51,7 @@ pip install -e .
 ### 1. Start Sherlock
 
 ```bash
-sherlock
+sherlock start
 ```
 
 On first run, Sherlock will:
