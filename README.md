@@ -34,7 +34,9 @@ Sherlock tracks token usage for LLM CLI tools with a live terminal dashboard. Se
 ## Installation
 
 ```bash
-pip install sherlock
+git clone https://github.com/jmuncor/sherlock.git
+cd sherlock
+pip install -e .
 ```
 
 ### Requirements
@@ -187,7 +189,7 @@ Contributions are welcome! Here's how you can help:
 ### Development Setup
 
 ```bash
-git clone https://github.com/yourusername/sherlock.git
+git clone https://github.com/jmuncor/sherlock.git
 cd sherlock
 python -m venv venv
 source venv/bin/activate
